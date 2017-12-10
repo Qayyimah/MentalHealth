@@ -1,0 +1,72 @@
+---
+title       : PRINCIPLE OF DATA SCIENCE WQD7001
+subtitle    : MentalHeath
+author      : NURUL QAYYIMAH,
+              SOO CHING PAU,
+              NURHIDAYATUL AIN 
+job         : 12 DECEMBER 2017
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+github      :
+user        : Qayyimah
+repo        : MentalHealth
+
+---
+
+
+## Project Description
+# Project Summary
+
+Our project focuses on the study of Mental Health data in IT workplace. We are interested in gauging how mental health is viewed within the tech or IT workplace, and the prevalence of certain mental health disorders within the tech industry.
+
+# Objective
+
+-To determine factors that might lead to mental health disorders in the IT workplace based on some variables.
+
+-To raise awareness and improve the conditions of people with potential mental disorders in IT workplace.
+
+--- .class #id 
+
+
+## Project Flow
+
+Upon completing this project, we follow the basic data science process from the beginning until the creation of Shiny.
+
+The main process are as follow:
+
+-Collect data (2014 and 2016)
+
+-Clean Data
+
+-Visulaize data
+
+-Shiny creation
+
+--- .class #id 
+
+
+## Dataset Description
+
+This datasets are from 2014 and 2016 survey that measures attitudes towards mental health and frequency of mental health disorders in the tech workplace.
+
+Previously, there are around 63 columns for each dataset and we had reduced it to 23 columns following our scope and objectives.
+
+The datasets are merged to get sufficient records to provide better results in the Shiny application and for future work.
+
+--- .class #id 
+
+
+## Shiny Application
+
+Shiny is one of the R packages that makes it easy to build interactive web apps straight from R. As per roject requirement, we explored Shiny to build application for this particular case study which use the Mental Health data in IT workplace.
+
+Link: https://nurhidayatulain.shinyapps.io/mental_health_in_tech-master/
+
+Screenshot: 
+
+
+
